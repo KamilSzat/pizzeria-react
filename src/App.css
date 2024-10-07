@@ -1,0 +1,23 @@
+.pizzeria{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.dish{
+  display: flex;
+  align-items: center;
+}
+.dish-image{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.dish-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.dish-info p {
+  margin: 5px 0;
+}
